@@ -1,6 +1,20 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 
-> Docentes: Pablo Tiscornia
 
+
+# Introducción al procesamiento de datos de la Encuesta Permanente de Hogares (EPH) - INDEC
+
+***
+
+<br>
+
+> Docente: Pablo Tiscornia
+
+<br>
 
 ### Presentación
 En los últimos años se han difundido muchas herramientas estadísticas novedosas para el análisis de información socioeconómica. En particular el software denominado "R", por tratarse de un software libre, se extiende cada vez más en diferentes disciplinas y recibe el aporte de investigadores e investigadoras en todo el mundo, multiplicando sistemáticamente sus capacidades.
@@ -12,7 +26,7 @@ Este programa se destaca, entre varias cosas, por su capacidad de trabajar con g
 ### Objetivos del curso
 El presente Taller tiene como objetivo principal introducirse en el aprendizaje del lenguaje de programación “R” aplicado procesamiento de la Encuesta Permanente de Hogares (EPH) - INDEC. Se apunta a brindar a los y las participantes herramientas prácticas para el procesamiento de datos haciendo énfasis en la producción y el análisis de estadísticas socioeconómicas en pos de abrir puertas para realizar investigaciones propias sobre diversas temáticas relacionadas al mercado de trabajo y las condiciones de vida de la población.
   
-La Encuesta Permanente de Hogares será la base de datos de aplicación elegida para el curso, dado que representa un insumo fundamental para realizar estudios sobre el mercado de trabajo y las condiciones de vida de la población. Se hará una introducción a los lineamientos conceptuales principales de la encuesta, en pos de que los y las participantes puedan abordar con datos distintas problemáticas vinculadas al mercado de trabajo y las condiciones de vida de la población.
+La Encuesta Permanente de Hogares representa un insumo fundamental para realizar estudios sobre el mercado de trabajo y las condiciones de vida de la población. Se hará una introducción a los lineamientos conceptuales principales de la encuesta, en pos de que los y las participantes puedan abordar con datos distintas problemáticas vinculadas al mercado de trabajo y las condiciones de vida de la población.
 
 *** 
   
@@ -29,12 +43,10 @@ __Clase 1: Conceptos Principales de EPH:__
   + Síntesis del operativo de campo, cobertura y periodicidad de la Encuesta
   + Definiciones de las principales variables de interés a abordar en el curso: Condición de actividad, categoría ocupacional, precariedad y pobreza
   + Metodología usuaria de las Bases de microdatos. Utilización del Diseño de Registro.
-  
-+ [Presentación](https://pablotis.github.io/Presentaciones/clase1_eph.html#1)
 
 <br>
 
-__Clase 2 y 3: Procesamiento de datos con el paquete Tidyverse:__
+__Clase 2 y 3: Procesamiento de datos con el paquete `Tidyverse` y `eph`:__
   
 + Temas de clase:
   + Descripción del programa “R”. Lógica sintáctica del lenguaje y comandos básicos
@@ -49,7 +61,7 @@ __Clase 2 y 3: Procesamiento de datos con el paquete Tidyverse:__
   
 <br>
 
-__Clase 4 y 5: Visualización de la información__
+__Clase 4 y 5: Visualización de la información con `ggplot2`__
   
 + Temas de clase:
   + Gráficos básicos de R (función “plot”): Comandos para la visualización ágil de la información
@@ -65,6 +77,7 @@ __Clase 6: Técnica de panel con la EPH__
   + Alcances y límites en el uso de la técnica de panel con la EPH.
   + Construcción y análisis de la matríz del flujo entre categorías de la condición de actividad entre dos trimestres.
 
+<br><br>
 
 #### Librerias a instalar
 
