@@ -1,10 +1,6 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 
-
+### Descarga del material para el curso
+[![](img/Download.png)](Materiales completos.rar)
 
 # Introducción al procesamiento de datos de la Encuesta Permanente de Hogares (EPH) - INDEC
 
@@ -73,6 +69,15 @@ La Encuesta Permanente de Hogares representa un insumo fundamental para realizar
   + Alcances y límites en el uso de la técnica de panel con la EPH.
   + Construcción y análisis de la matríz del flujo entre categorías de la condición de actividad entre dos trimestres.
   
+<br>
+
+#### Librerias a instalar
+A lo largo del curso se utilizarán librerías complemetarias al lenguaje RBase. Con la siguiente línea de código se pueden instalar las principales de ellas:
+
+```
+install.packages(c("tidyverse", 'eph', "openxlsx",'ggplot2','ggthemes', 'kableExtra', 'rmarkdown', 'viridis'))
+```
+
 ### Cronograma: 
 
 __Cantidad de clases:__ 4.
