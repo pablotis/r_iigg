@@ -1,10 +1,4 @@
 
-### Descarga del material para el curso
-[![](img/Download.png)](Materiales completos.rar)
-
-### Descarga de carpeta Fuentes
-[![](img/Download.png)](Fuentes.rar)
-
 # Introducción al procesamiento de datos de la Encuesta Permanente de Hogares (EPH) - INDEC
 
 ***
@@ -32,9 +26,18 @@ La Encuesta Permanente de Hogares representa un insumo fundamental para realizar
 
 <br><br>
 
-### Contenido:
+## Contenido:
 
-+ Clase 1: Conceptos Principales de EPH:
+#### Descarga del material para el curso
+[![](img/Download.png)](Materiales completos.rar)
+
+#### Descarga de carpeta Fuentes
+[![](img/Download.png)](Fuentes.rar)
+
+### Módulo 1: Conceptos Principales de EPH:
+
+#### Descarga de Modulo 1 - EPH
+[![](img/Download.png)](Modulo 1 - EPH.rar)
   
   + Presentación del curso.
   + Presentación de la Encuesta Permanente de Hogares: Lineamientos conceptuales y metodología
@@ -45,8 +48,11 @@ La Encuesta Permanente de Hogares representa un insumo fundamental para realizar
 
 <br>
 
-+ Clase 2: Procesamiento de datos con el paquete `Tidyverse` y `eph`:
+### Módulo 2: Procesamiento de datos con el paquete `Tidyverse` y `eph`:
   
+#### Descarga de Módulo 2 - Procesamiento de datos
+[![](img/Download.png)](Módulo 2 - Procesamiento de datos.rar)
+
   + Descripción del programa “R”. Lógica sintáctica del lenguaje y comandos básicos
   + Limpieza de Base de datos: Renombrar y recodificar variables, tratamiento de valores faltantes (missing values/ NA´s)
   + Seleccionar variables, ordenar y agrupar la base de datos para realizar cálculos
@@ -59,8 +65,11 @@ La Encuesta Permanente de Hogares representa un insumo fundamental para realizar
   
 <br>
 
-+ Clase 3: Visualización de la información con `ggplot2`
+### Módulo 3: Visualización de la información con `ggplot2`
   
+#### Descarga de Módulo 3 - Visualización de la información
+[![](img/Download.png)](Módulo 3 - Visualización de la información.rar)
+
   + Gráficos elaborados en R (función “ggplot”): 
     + Gráficos de línea, barras, Boxplots 
     + Extensiones de ggplot
