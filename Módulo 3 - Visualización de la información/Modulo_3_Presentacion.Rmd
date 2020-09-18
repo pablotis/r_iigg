@@ -436,7 +436,7 @@ ggplot(data = base_graf,
   geom_bar(color = "black", 
            position = "dodge",
            stat = "identity") +
-  scale_fill_manual(values = c("forestgreen", "salmon")) +
+  scale_fill_manual(values = c("forestgreen", "#c51b8a")) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 35, 
                                    vjust = 0.5)) +

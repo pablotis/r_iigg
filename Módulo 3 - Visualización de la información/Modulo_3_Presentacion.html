@@ -1107,26 +1107,9 @@ ggplot(data = base_graf,
        aes(x = NIVEL_ED,  
            y = porcentaje,  
            fill = CH04)) +  
-* geom_col(color = "black",
-*          position = "dodge")
-```
-]]
-.column[.content[
-&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_6-1.png" width="100%" /&gt;
-]]
----
-class: split-40
-count: false
-.column[.content[
-
-```r
-ggplot(data = base_graf,  
-       aes(x = NIVEL_ED,  
-           y = porcentaje,  
-           fill = CH04)) +  
-  geom_col(color = "black",  
-           position = "dodge") +  
-* scale_fill_manual(values = c("forestgreen", "salmon"))
+* geom_bar(color = "black",
+*          position = "dodge",
+*          stat = "identity")
 ```
 ]]
 .column[.content[
@@ -1142,10 +1125,10 @@ ggplot(data = base_graf,
        aes(x = NIVEL_ED,  
            y = porcentaje,  
            fill = CH04)) +  
-  geom_col(color = "black",  
-           position = "dodge") +  
-  scale_fill_manual(values = c("forestgreen", "salmon")) +  
-* theme_minimal()
+  geom_bar(color = "black",  
+           position = "dodge",  
+           stat = "identity") +  
+* scale_fill_manual(values = c("forestgreen", "#c51b8a"))
 ```
 ]]
 .column[.content[
@@ -1161,16 +1144,15 @@ ggplot(data = base_graf,
        aes(x = NIVEL_ED,  
            y = porcentaje,  
            fill = CH04)) +  
-  geom_col(color = "black",  
-           position = "dodge") +  
-  scale_fill_manual(values = c("forestgreen", "salmon")) +  
-  theme_minimal() +  
-* theme(axis.text.x = element_text(angle = 35,
-*                                  vjust = 0.5))
+  geom_bar(color = "black",  
+           position = "dodge",  
+           stat = "identity") +  
+  scale_fill_manual(values = c("forestgreen", "#c51b8a")) +  
+* theme_minimal()
 ```
 ]]
 .column[.content[
-&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_10-1.png" width="100%" /&gt;
+&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_9-1.png" width="100%" /&gt;
 ]]
 ---
 class: split-40
@@ -1182,9 +1164,32 @@ ggplot(data = base_graf,
        aes(x = NIVEL_ED,  
            y = porcentaje,  
            fill = CH04)) +  
-  geom_col(color = "black",  
-           position = "dodge") +  
-  scale_fill_manual(values = c("forestgreen", "salmon")) +  
+  geom_bar(color = "black",  
+           position = "dodge",  
+           stat = "identity") +  
+  scale_fill_manual(values = c("forestgreen", "#c51b8a")) +  
+  theme_minimal() +  
+* theme(axis.text.x = element_text(angle = 35,
+*                                  vjust = 0.5))
+```
+]]
+.column[.content[
+&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_11-1.png" width="100%" /&gt;
+]]
+---
+class: split-40
+count: false
+.column[.content[
+
+```r
+ggplot(data = base_graf,  
+       aes(x = NIVEL_ED,  
+           y = porcentaje,  
+           fill = CH04)) +  
+  geom_bar(color = "black",  
+           position = "dodge",  
+           stat = "identity") +  
+  scale_fill_manual(values = c("forestgreen", "#c51b8a")) +  
   theme_minimal() +  
   theme(axis.text.x = element_text(angle = 35,  
                                    vjust = 0.5)) +  
@@ -1195,7 +1200,7 @@ ggplot(data = base_graf,
 ```
 ]]
 .column[.content[
-&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_14-1.png" width="100%" /&gt;
+&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_15-1.png" width="100%" /&gt;
 ]]
 ---
 class: split-40
@@ -1207,9 +1212,10 @@ ggplot(data = base_graf,
        aes(x = NIVEL_ED,  
            y = porcentaje,  
            fill = CH04)) +  
-  geom_col(color = "black",  
-           position = "dodge") +  
-  scale_fill_manual(values = c("forestgreen", "salmon")) +  
+  geom_bar(color = "black",  
+           position = "dodge",  
+           stat = "identity") +  
+  scale_fill_manual(values = c("forestgreen", "#c51b8a")) +  
   theme_minimal() +  
   theme(axis.text.x = element_text(angle = 35,  
                                    vjust = 0.5)) +  
@@ -1223,7 +1229,7 @@ ggplot(data = base_graf,
 ```
 ]]
 .column[.content[
-&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_17-1.png" width="100%" /&gt;
+&lt;img src="Modulo_3_Presentacion_files/figure-html/output_g6_18-1.png" width="100%" /&gt;
 ]]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
